@@ -1,0 +1,26 @@
+name: realestate_ui
+description: A Flutter UI demo following Clean Architecture + GetX (skeleton)
+publish_to: 'none'
+version: 0.0.1+1
+
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/placeholder1.png
+    - assets/images/placeholder2.png
+    - assets/images/avatar.png
+  fonts: []
